@@ -64,3 +64,31 @@ Check if login doesn't work when a person uses invalid credentials.
 3. User should be redirected to "Create new account" page
 
 ----------------
+
+**Description:**
+Check if login doesn't work when a person doesn't use credentials.
+
+**Steps to reproduce:**
+1. Open https://auth.emag.ro/user/login
+2. Click "Continua" button without adding an email adress
+
+**Expected results:**
+1. User should be able to open the login page
+2. User should get a "Required field" error
+
+----------------
+
+**Description:**
+Check if the search feature returns results when the user searches for products.
+
+**Steps to reproduce:**
+1. Open https://www.emag.ro/
+2. Add a product name on the search bar
+3. Click "Magnifying glass icon" button or "Enter" button
+
+**Expected results:**
+1. User should be able to open the home page
+2. User should be able to add a product name on the search bar
+3. User should be redirected to a search results page
+
+----------------
