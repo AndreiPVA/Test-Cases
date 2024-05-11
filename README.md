@@ -8,6 +8,26 @@ Below are some Test Case samples that I wrote while working on previous projects
 Check if login works when a person uses correct credentials.
 
 **Steps to reproduce:**
+1. Open website.com/login
+2. Add correct user/password
+3. Click "Login" button
+
+**Expected result:**
+User should be able to login and is redirected to his profile page.
+
+**Test data:**
+User: Andrei
+Password: 12345
+
+**Pre-conditions:**
+User should have a valid account.
+
+----------------
+
+**Description:**
+Check if login works when a person uses correct credentials.
+
+**Steps to reproduce:**
 1. Open https://auth.emag.ro/user/login
 2. Add correct email adress
 3. Click "Continua" button
