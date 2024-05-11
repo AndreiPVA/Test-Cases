@@ -49,3 +49,18 @@ Check if login works when a person uses correct credentials.
 User should have a valid account.
 
 ----------------
+
+**Description:**
+Check if login doesn't work when a person uses invalid credentials.
+
+**Steps to reproduce:**
+1. Open https://auth.emag.ro/user/login
+2. Add invalid email adress
+3. Click "Continua" button
+
+**Expected results:**
+1. User should be able to open the login page
+2. User should be able to add an invalid email adress
+3. User should be redirected to "Create new account" page
+
+----------------
