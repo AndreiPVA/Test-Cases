@@ -16,8 +16,8 @@ Check if login works when a person uses correct credentials.
 User should be able to login and is redirected to his profile page.
 
 **Test data:**
-User: Andrei
-Password: 12345
+- User: Andrei
+- Password: 12345
 
 **Pre-conditions:**
 User should have a valid account.
@@ -42,8 +42,8 @@ Check if login works when a person uses correct credentials.
 5. User should be able to login and is redirected to his profile page
 
 **Test data:**
-User: Andrei
-Password: 12345
+- User: Andrei
+- Password: 12345
 
 **Pre-conditions:**
 User should have a valid account.
