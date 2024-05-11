@@ -92,3 +92,29 @@ Check if the search feature returns results when the user searches for products.
 3. User should be redirected to a search results page
 
 ----------------
+
+**Description:**
+Check if the search feature can fully autocomplete the name of a product when the user enters the first 3 digits from a product name.
+
+**Steps to reproduce:**
+1. Open https://www.emag.ro/
+2. Add the first 3 digits from a product name on the search bar
+
+**Expected results:**
+1. User should be able to open the home page
+2. The name of the product should be fully autocompleted
+
+----------------
+
+**Description:**
+Check if the search feature doesn't return errors when the user searches for non-existent products.
+
+**Steps to reproduce:**
+1. Open https://www.emag.ro/
+2. Add a non-existent product name on the search bar
+3. Click "Magnifying glass icon" button or "Enter" button
+
+**Expected results:**
+1. User should be able to open the home page
+2. User should be able to add a non-existent product name on the search bar
+3. User should be redirected to a "0 results" page and not get any errors
